@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Resume Builder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2>Resume Builder</h2>
+
+    <button onclick="showTab('personal')">Personal</button>
+    <button onclick="showTab('summary')">Summary</button>
+    <button onclick="showTab('education')">Education</button>
+    <button onclick="showTab('experience')">Experience</button>
+    <button onclick="showTab('skills')">Skills</button>
+
+    <hr>
+
+    <button onclick="generateResume()">Generate</button>
+    <button onclick="downloadResume()">Download</button>
+  </aside>
+
+  <!-- FORM -->
+  <div class="form">
+
+    <div id="personal" class="tab active">
+      <h2>Personal</h2>
+      <input id="name" placeholder="Full Name">
+      <input id="title" placeholder="Title">
+      <input id="email" placeholder="Email">
+      <input id="phone" placeholder="Phone">
+      <input type="file" id="image">
+    </div>
+
+    <div id="summary" class="tab">
+      <h2>Summary</h2>
+      <textarea id="summaryText"></textarea>
+    </div>
+
+    <div id="education" class="tab">
+      <h2>Education</h2>
+      <textarea id="educationText"></textarea>
+    </div>
+
+    <div id="experience" class="tab">
+      <h2>Experience</h2>
+      <textarea id="experienceText"></textarea>
+    </div>
+
+    <div id="skills" class="tab">
+      <h2>Skills</h2>
+
+      <div class="skill-box">
+        <input id="skillInput" placeholder="Enter skill">
+        <button onclick="addSkill()">Add</button>
+      </div>
+
+      <div id="skillsList"></div>
+    </div>
+
+  </div>
+
+  <!-- PREVIEW -->
+  <div class="preview">
+    <div class="resume" id="resume">
+
+      <div class="header">
+        <img id="previewImg" src="https://via.placeholder.com/100">
+        <h1 id="r-name">Your Name</h1>
+        <h3 id="r-title">Title</h3>
+        <p id="r-email"></p>
+        <p id="r-phone"></p>
+      </div>
+
+      <div class="section">
+        <h3>Summary</h3>
+        <p id="r-summary"></p>
+      </div>
+
+      <div class="section">
+        <h3>Education</h3>
+        <p id="r-education"></p>
+      </div>
+
+      <div class="section">
+        <h3>Experience</h3>
+        <p id="r-experience"></p>
+      </div>
+
+      <div class="section">
+        <h3>Skills</h3>
+        <div id="r-skills"></div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

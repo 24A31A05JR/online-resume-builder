@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 200px;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background: #1e293b;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: #334155;
+}
+
+/* FORM */
+.form {
+  width: 35%;
+  padding: 20px;
+  background: #f1f5f9;
+  overflow-y: auto;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* SKILLS */
+.skill-box {
+  display: flex;
+  gap: 10px;
+}
+
+#skillsList span {
+  background: #3b82f6;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* PREVIEW */
+.preview {
+  width: 45%;
+  padding: 20px;
+  background: #e2e8f0;
+}
+
+.resume {
+  background: white;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.section {
+  margin-top: 20px;
+}
