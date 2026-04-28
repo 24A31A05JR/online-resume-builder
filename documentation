@@ -1,0 +1,70 @@
+# **Online Resume Builder – Documentation**
+
+## **Abstract**
+
+This project is a simple and user-friendly online resume builder that allows users to create professional resumes quickly using customizable templates. It provides real-time preview, easy editing features, and export options for a smooth and efficient resume-building experience.
+
+---
+
+## **Introduction**
+
+Creating a professional resume is an important step in job applications. This project aims to simplify the resume creation process by providing an online platform where users can build resumes easily without advanced design skills. The system uses modern web technologies to offer an interactive and responsive interface.
+
+---
+
+## **Objectives**
+
+* To develop an easy-to-use resume builder
+* To provide customizable resume templates
+* To enable real-time preview of resume changes
+* To allow users to edit content efficiently
+* To support export options for download
+
+---
+
+## **System Description**
+
+The online resume builder is a web-based application that helps users create resumes by filling in structured fields. The system automatically formats the resume based on selected templates and displays real-time updates.
+
+---
+
+## **Features**
+
+* Customizable resume templates
+* Real-time preview
+* Simple and intuitive interface
+* Section-wise editing (Education, Experience, Skills, etc.)
+* Export/download option (PDF format)
+* Responsive design for all devices
+
+---
+
+## **Methodology**
+
+The system is developed using modern web technologies. The user inputs data into form fields, and the application dynamically updates the resume preview. The final output can be exported as a downloadable file.
+
+---
+
+## **Advantages**
+
+* Saves time in resume creation
+* No design skills required
+* Professional-looking output
+* Easy editing and updating
+* Accessible from anywhere
+
+---
+
+## **Limitations**
+
+* Limited template customization in basic versions
+* Requires internet access
+* Advanced features may need premium access
+
+---
+
+## **Conclusion**
+
+The online resume builder simplifies the process of creating professional resumes. It improves efficiency by providing ready-made templates, real-time editing, and easy export options. It is a useful tool for students and job seekers.
+
+---
